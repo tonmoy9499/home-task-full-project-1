@@ -1,0 +1,447 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* Header  */
+#header{
+    background-attachment: fixed; 
+    background-color: black;
+    color: yellow;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 20px;
+    margin: auto;
+    float: left;
+}
+.logo-part{
+    width: 15%;
+    float: left;
+    padding-left: 25px;
+}
+/* Menu part */
+.menu-part{
+    width:60% ;
+    float: left;
+}
+.menu-part ul{
+    text-align: center;
+    padding: 5px;
+}
+.menu-part li{
+    padding: 25px 05px;
+    margin: auto;
+    display: inline-block;
+    transition: 1.5s;
+}
+.menu-part a{
+    color: aqua;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 4px 5px;
+    text-decoration: none;
+}
+.menu-part a:hover{
+    color: rgb(230, 94, 53);
+}
+/* Search part */
+.search-part{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 25%;
+    float: left;
+}
+.search-part input {
+    text-align: center;
+    width: 80%;
+    padding: 10px 5px;
+    float: left;   
+    border-radius: 10px;
+}
+input::placeholder{
+    color: rgb(71, 88, 54);
+}
+.search-part i{
+    color: yellow;
+    padding-left: 10px;
+    font-size: 30px;
+}
+/* hero part */
+.hero{
+    background-image: url(../image/the-lion.jpg);
+    height: 650px; 
+    padding-top:25% ;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    float: left; 
+}
+.hero-writing-part{
+    color: rgb(255, 255, 255);
+    width: 50%; 
+    padding-bottom: 500px;
+}
+.hero .hero-writing-part h1{
+    font-size: 50px;
+    text-align: center;
+} 
+/* Button */
+.hero-writing-part button{  
+    border-radius: 10px;
+    background-color: orange;
+    height: 35px;
+    display: block;
+    margin: auto;
+}
+.hero-writing-part button a{
+    padding:0px 20px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    border: none;
+}
+/* kinds of lion */
+.kinds{
+    background-image: linear-gradient( to bottom right,orange,rgb(219, 219, 27) );
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    float: left;
+    text-align: center;
+}
+.kinds-writing-part{
+    width: 100%;
+    color: white;
+    float: left;
+    padding-bottom:50px ;
+}
+.kinds-writing-part h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 10px;
+}
+.kinds-writing-part p{
+    font-size: 20px;
+    padding: 2px;
+    width: 60%;
+    margin: auto;   
+}
+.kind-img-part{
+    width: 30%;
+    float: left;
+    margin: 0px 1.5%;  
+    background-color: black;
+}
+.kind-img-part img{
+    width: 100%;
+    height: 350px;
+}
+.kind-img-part h3{
+    color: white;  
+}
+.kind-img-part p{
+    color: white;
+}
+/* ticketing */
+.ticketing{
+    background-color: black;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.ticket-writing-part{
+    color: white;
+    width: 100%;
+    float: left;
+}
+.ticket-writing-part h2{
+    font-size: 50px;
+    padding: 30px;
+}
+.ticket-writing-part p{
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.value-part{
+    background-color:orange;
+    color: white;
+    width: 30%;
+    height: 400px;
+    margin:0px 1.5%;
+    float: left;
+}
+.value-part i{
+    width: 100%;
+    font-size: 100px;
+    padding: 60px;
+}
+.value-part h3{
+    font-size: 25px;
+    padding: 15px 0px;
+}
+.value-part p{
+    padding: 10px;
+}
+.value-part button{
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: black;
+    width: 80%;
+}
+.value-part button a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+/* best and amazing part  */
+.best{
+    background-color: orange;
+    color: white;
+    width: 100%;
+    float: left;
+}
+.best-img-part{
+    width: 50%;
+    float: left;   
+}
+.best-img-part img{
+    color: white;
+    width: 100%;
+    height: 730px;
+}
+.best-writing-part{
+    width: 50%;
+    float: left;
+    padding: 18% 40px;
+}
+.best h2{
+    font-size: 45px;
+    padding: 20px 0px;
+}
+.best p{
+    padding-bottom: 45px;
+}
+.best button{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.best a{
+    color: white;
+    text-decoration: none;
+
+}
+.amazing{
+    background-color: orange;
+    color: white;
+    width: 100%;
+    float: left;
+}
+.amazing-img-part{
+    width: 50%;
+    float: left;
+}
+.amazing-img-part img{
+    width: 100%;
+    height: 730px;
+}
+.amazing-writing-part{
+    background-color: orange;
+    width: 50%;
+    float: left;
+    padding: 20% 40px;
+}
+.amazing h2{
+    font-size: 45px;
+    padding: 20px 0px;
+}
+.amazing p{
+    padding-bottom: 50px;
+}
+.amazing button{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.amazing a{
+    color: white;
+    text-decoration: none;
+}
+/* static part  */
+.static{
+    background-color: black;
+    color: white;
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+}
+.writing { 
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 30px 0px;
+}
+.writing h1{
+    font-size: 50px;
+    padding: 40px 0px ;
+}
+.writing p{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 150px;
+}
+.count{
+    text-align: center;
+   font-size: 25px;
+   width: 33.33%;
+   margin: auto;
+   float: left;
+}
+.static h2{
+    padding: 10px 0px;
+}
+.static h3{
+    padding-bottom: 88px;
+}
+.static a{
+    color: white;
+    text-decoration: none;
+}
+/* family time  */
+.family{
+    background: url(../image/lion\ family.jpg)center;
+    background-size:cover;
+    color: white;
+    width: 100%;
+    float: left;
+    height: 600px;
+    padding: 30% 0px;
+    text-align: center;
+}
+.family p{
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.family h2{
+    font-size: 50px;
+    padding: 20px 0px;
+}
+/* subscribe part  */
+.subs{
+    width: 100%;
+    float: left;
+    background-color: orange;
+    color: white;
+    padding-top: 08%;
+    padding-bottom: 03%;
+
+}
+.subs h2{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+.subs p{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.subs form{
+    width: 70%;
+    margin: auto;
+    padding-left: 155px;
+    padding-bottom: 50px;
+}
+.email{
+    text-align: center;
+    font-size: 18px;
+    width: 60%;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+.submit{
+    width: 25%;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20px;  
+}
+.email::placeholder{
+    font-size: 18px;
+    color:black ;
+}
+/* footer  */
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.icon-part{
+    width: 40%;
+    float: left;
+}
+.icon-part p{
+    width: 90%;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+.icon-part i{
+    
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.footer .icon-part a{
+    display: inline;
+}
+.about{
+    width: 20%;
+    margin: 0px 1%;
+    float: left;
+}
+.service{
+    width: 20%;
+    margin: 0px 1%;
+    float: left;
+}
+.contact{
+    width: 14%;
+    margin: 0px 1%;
+    float: left;
+}
+.footer h2{
+    font-size: 30px;
+    padding: 30px 0px;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 5px;
+}
+
+
+
